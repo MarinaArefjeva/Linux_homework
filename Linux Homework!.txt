@@ -1,0 +1,8 @@
+1 #!/bin/bash
+2 echo your name is
+3 whoami
+4 echo your working directory is
+5 pwd
+6 echo number of users
+7 ps -ef | grep ssh | wc -l
+8 echo done
