@@ -1,0 +1,17 @@
+/
+#nano taskJENYAA.sh
+
+#!/bin/bash
+
+tdate=$(date +"%H%M%S")
+for run in {1..10}
+do
+number=$run
+file="${number}${tdate}"
+touch $file
+done
+
+
+
+[ec2-user@ip-172-31-33-20 jenyaa]$ crontab -l
+/15 * * * * /opt/040423_evening/Arefjeva/taskmarina.sh
