@@ -13,5 +13,5 @@ done
 
 
 
-[ec2-user@ip-172-31-33-20 j]$ crontab -l
+[ec2-user@ip-172-31-33-20 Arefjeva ]$ crontab -l
 /15 * * * * /opt/040423_evening/Arefjeva/taskmarina.sh
