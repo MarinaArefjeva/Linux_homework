@@ -1,5 +1,5 @@
-/
-#nano taskJENYAA.sh
+
+#nano taskmarina.sh
 
 #!/bin/bash
 
@@ -13,5 +13,5 @@ done
 
 
 
-[ec2-user@ip-172-31-33-20 jenyaa]$ crontab -l
+[ec2-user@ip-172-31-33-20 j]$ crontab -l
 /15 * * * * /opt/040423_evening/Arefjeva/taskmarina.sh
